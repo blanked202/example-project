@@ -58,7 +58,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOILERPLATE_8C870 }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_EXAMPLE_PROJECT_58F91 }}"
           channelId: live
           # TODO: insert project id and target firebase hosting
           projectId: example-project-58f91
